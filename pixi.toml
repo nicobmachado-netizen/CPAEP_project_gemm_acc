@@ -1,0 +1,26 @@
+# Copyright 2025 KU Leuven.
+# Licensed under the Apache License, Version 2.0, see LICENSE for details.
+# SPDX-License-Identifier: Apache-2.0
+
+[project]
+name = "verilator-pixi"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+version = "0.0.1"
+
+[dependencies]
+# Verilator + basic toolchain so the generated C++ can compile
+verilator = "*"
+cxx-compiler = "*"
+make = "*"
+pkg-config = "*"
+
+
+# Optional: handy for Python-driven flows
+python = "3.11.*"
+pytest = "*"
+numpy = "*"
+
+[tasks]
+# Quick version check
+verilator-version = "verilator --version"

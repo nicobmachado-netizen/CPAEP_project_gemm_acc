@@ -1,0 +1,727 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/users/students/r1081617/cpaep2526_project
+T_opt
+Z2 !s110 1764941313
+VRmc0?:3lfHJA2Y4<NDa6S0
+04 19 4 work tb_gemm_accelerator fast 0
+=1-001a4a1601a5-6932de01-637a9-2aa51
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2022.4;75
+T_opt1
+Z8 !s110 1764933959
+VY7aaLkz_96343aTkR^z0J1
+04 16 4 work tb_matrix_reader fast 0
+=1-001a4a1601a5-6932c147-b6fcf-29304
+R0
+R3
+R4
+R5
+R6
+n@_opt1
+R7
+R1
+T_opt2
+Z9 !s110 1764935092
+VXa`5Tz`d>cOjVcGJZiD4i2
+04 14 4 work tb_tile_mac_pe fast 0
+=1-001a4a1601a5-6932c5b4-83a94-296ba
+R0
+R3
+R4
+R5
+R6
+n@_opt2
+R7
+R1
+vceiling_counter
+Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z11 !s110 1764931488
+!i10b 1
+!s100 1JoULaIZTnjj@b`]n2<<m3
+ISoPklI23Q49U79@jAFEn;3
+S1
+R1
+Z12 w1764746381
+8rtl/common/ceiling_counter.sv
+Frtl/common/ceiling_counter.sv
+!i122 141
+L0 24 46
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z15 !s108 1764931488.000000
+Z16 !s107 includes/test_func.svh|includes/test_tasks.svh|includes/common_tasks.svh|tb/tb_one_mac_gemm.sv|rtl/common/single_port_memory.sv|rtl/gemm/tile_mac_pe.sv|rtl/gemm/gemm_accelerator_top.sv|rtl/gemm/gemm_controller.sv|rtl/common/ceiling_counter.sv|rtl/gemm/general_mac_pe.sv|
+Z17 !s90 -reportprogress|300|+cover|+acc|-sv|-f|flists/tb_one_mac_gemm.flist|+incdir+.|
+!i113 0
+Z18 !s102 +cover
+Z19 o+cover +acc -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z20 !s92 +cover +acc -sv +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vgemm_accelerator
+R10
+R2
+!i10b 1
+!s100 K8goMIejRWWDYS;PR4OdX0
+IhnOZkh5?RWbcd11^IClzQ1
+S1
+R1
+w1764929699
+8rtl/gemm/gemm_accelerator.sv
+Frtl/gemm/gemm_accelerator.sv
+!i122 154
+L0 1 318
+R13
+R14
+r1
+!s85 0
+31
+Z21 !s108 1764941313.000000
+Z22 !s107 tb/tb_gemm_accelerator.sv|rtl/gemm/general_mac_pe.sv|rtl/gemm/tile_mac_pe.sv|rtl/gemm/gemm_accelerator.sv|rtl/common/matrix_reader.sv|rtl/common/single_port_memory.sv|
+Z23 !s90 +cover|+acc|-sv|-f|flists/tb_gemm_accelerator.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vgemm_accelerator_top
+R10
+R11
+!i10b 1
+!s100 O1FYcP:F5N;5QmeHN^48f3
+IXUlhD;NSXi=2jD[?:E?EC1
+S1
+R1
+w1764853733
+8rtl/gemm/gemm_accelerator_top.sv
+Frtl/gemm/gemm_accelerator_top.sv
+!i122 141
+L0 1 331
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R20
+R6
+vgemm_controller
+R10
+R11
+!i10b 1
+!s100 `N=Thb<_0CQLzACiE[Y3=1
+IEDH5_nm7Sa8gFP<7^OSgz1
+S1
+R1
+w1764765411
+8rtl/gemm/gemm_controller.sv
+Frtl/gemm/gemm_controller.sv
+!i122 141
+L0 32 163
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R20
+R6
+vgeneral_mac_pe
+R10
+R2
+!i10b 1
+!s100 VZaBSE=DHiP_EWoN]B80N2
+IBo;UOFaS2AUgBYJaj=@RR0
+S1
+R1
+w1764842055
+8rtl/gemm/general_mac_pe.sv
+Frtl/gemm/general_mac_pe.sv
+!i122 154
+L0 28 51
+R13
+R14
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R18
+R19
+R20
+R6
+vmatrix_block_reader
+R10
+Z24 !s110 1764838785
+!i10b 1
+!s100 DznfeHSOlAT1AM6QT]aQ?0
+IgTX?XFhBogOUgfIOk^X2F2
+S1
+R1
+w1764774465
+8rtl/common/matrix_block_reader.sv
+Frtl/common/matrix_block_reader.sv
+!i122 44
+L0 1 218
+R13
+R14
+r1
+!s85 0
+31
+Z25 !s108 1764838785.000000
+Z26 !s107 tb/tb_matrix_block_reader.sv|rtl/common/matrix_block_reader.sv|rtl/common/single_port_memory.sv|
+Z27 !s90 +cover|+acc|-sv|-f|flists/tb_matrix_block_reader.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vmatrix_block_reader_h
+R10
+Z28 !s110 1764840346
+!i10b 1
+!s100 mn7W^R1Zg5_mGlORWoH1I1
+Izj^b;JRC]eWTVB7KUMg<M2
+S1
+R1
+w1764839855
+8rtl/common/matrix_block_reader_h.sv
+Frtl/common/matrix_block_reader_h.sv
+!i122 47
+L0 1 200
+R13
+R14
+r1
+!s85 0
+31
+Z29 !s108 1764840346.000000
+Z30 !s107 tb/tb_matrix_block_reader_h.sv|rtl/common/matrix_block_reader_h.sv|rtl/common/single_port_memory.sv|
+Z31 !s90 +cover|+acc|-sv|-f|flists/tb_matrix_block_reader_h.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vmatrix_reader
+R10
+R2
+!i10b 1
+!s100 W1m?]Z4JNZHKC:kCJV7@[3
+I?TO3mnUkZohN[j8YY]:X71
+S1
+R1
+w1764926688
+8rtl/common/matrix_reader.sv
+Frtl/common/matrix_reader.sv
+!i122 154
+L0 2 170
+R13
+R14
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R18
+R19
+R20
+R6
+vsingle_port_memory
+R10
+R2
+!i10b 1
+!s100 S7@4CeI6k@IolDn@cJ]Pn3
+ISb[go2@]@RO3VRNWIMYf=3
+S1
+R1
+R12
+8rtl/common/single_port_memory.sv
+Frtl/common/single_port_memory.sv
+!i122 154
+L0 27 29
+R13
+R14
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R18
+R19
+R20
+R6
+vtb_gemm_accelerator
+R10
+R2
+!i10b 1
+!s100 2D]?AI75;52Ta^AHJmh5N0
+IjaHFQ5MzTcoY[85cBNIFQ2
+S1
+R1
+w1764941309
+8tb/tb_gemm_accelerator.sv
+Ftb/tb_gemm_accelerator.sv
+!i122 154
+L0 3 341
+R13
+R14
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R18
+R19
+R20
+R6
+vtb_gemm_accelerator_top
+R10
+!s110 1764851046
+!i10b 1
+!s100 R@AoeF@FD<X]g`Sn>h8BH0
+IVGF=[NohGic]HaP5Z`fg70
+S1
+R1
+w1764851034
+Z32 8tb/tb_gemm_accelerator_top.sv
+Z33 Ftb/tb_gemm_accelerator_top.sv
+!i122 80
+Z34 L0 3 185
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764851046.000000
+Z35 !s107 tb/tb_gemm_accelerator_top.sv|rtl/gemm/general_mac_pe.sv|rtl/gemm/tile_mac_pe.sv|rtl/gemm/gemm_accelerator_top.sv|rtl/common/single_port_memory.sv|
+Z36 !s90 +cover|+acc|-sv|-f|flists/tb_gemm_accelerator_top.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_gemm_accelerator_top_8x8
+R10
+!s110 1764853739
+!i10b 1
+!s100 L9>E:GTZEB1LK=bb;A9V72
+I=M<1To`k:oP5FBJ@^_ehB3
+S1
+R1
+w1764851060
+R32
+R33
+!i122 88
+R34
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764853739.000000
+R35
+R36
+!i113 0
+R18
+R19
+R20
+R6
+vtb_gemm_controller_64mac
+R10
+!s110 1764767107
+!i10b 1
+!s100 PNOI^G5hcNjFa9bD>OeE80
+I7=Z::oncoXLmG6[dPIA>Z1
+S1
+R1
+w1764767055
+8tb/tb_gemm_controller_64mac.sv
+Ftb/tb_gemm_controller_64mac.sv
+!i122 31
+L0 3 236
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764767107.000000
+!s107 tb/tb_gemm_controller_64mac.sv|rtl/gemm/gemm_controller.sv|rtl/common/ceiling_counter.sv|
+!s90 +cover|+acc|-sv|-f|flists/tb_gemm_controller_64mac.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_mac_pe
+R10
+!s110 1764765523
+!i10b 1
+!s100 zdd`i^bX[9X7mP0RLGkH^0
+Ii[877FfD[9@h;A1K;I8dJ2
+S1
+R1
+w1764755483
+8tb/tb_mac_pe.sv
+Ftb/tb_mac_pe.sv
+Z37 Fincludes/common_tasks.svh
+!i122 27
+L0 6 171
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764765523.000000
+!s107 includes/common_tasks.svh|tb/tb_mac_pe.sv|rtl/gemm/general_mac_pe.sv|
+!s90 +cover|+acc|-sv|-f|flists/tb_mac_pe.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_matrix_block_reader
+R10
+R24
+!i10b 1
+!s100 CC1C9oT[;F9aSV3<CQdVL3
+I>fMX>NUC@_6e1aV<ba[W:0
+S1
+R1
+w1764774033
+Z38 8tb/tb_matrix_block_reader.sv
+Z39 Ftb/tb_matrix_block_reader.sv
+!i122 44
+Z40 L0 3 182
+R13
+R14
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R18
+R19
+R20
+R6
+vtb_matrix_block_reader_h
+R10
+R28
+!i10b 1
+!s100 3zVznJS<c7V<dn`KB:ejH1
+IkZfLZcYV=]Qa7PeGZf8_L3
+S1
+R1
+w1764840335
+8tb/tb_matrix_block_reader_h.sv
+Ftb/tb_matrix_block_reader_h.sv
+!i122 47
+L0 3 176
+R13
+R14
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R18
+R19
+R20
+R6
+vtb_matrix_reader
+R10
+R8
+!i10b 1
+!s100 e@4aP7:Y_lEW6c4TEiBj70
+IV7AQ]XgbK3U1Do?h@jzd`1
+S1
+R1
+w1764933957
+8tb/tb_matrix_reader.sv
+Ftb/tb_matrix_reader.sv
+!i122 144
+L0 3 174
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764933959.000000
+!s107 tb/tb_matrix_reader.sv|rtl/common/matrix_reader.sv|rtl/common/single_port_memory.sv|
+!s90 +cover|+acc|-sv|-f|flists/tb_matrix_reader.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_matrix_tile_reader_dyn
+R10
+!s110 1764774006
+!i10b 1
+!s100 [>_SaIfZmj[>cDaT9NBn01
+In>cO4AF<XPo@cBn8h[f]A1
+S1
+R1
+w1764773995
+R38
+R39
+!i122 41
+R40
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764774006.000000
+R26
+R27
+!i113 0
+R18
+R19
+R20
+R6
+vtb_one_mac_gemm
+R10
+R11
+!i10b 1
+!s100 4CAoLlF2_n??DdJKI5NjF0
+IIdK55Q^3oO7YHZE@3agR92
+S1
+R1
+w1764931154
+8tb/tb_one_mac_gemm.sv
+Ftb/tb_one_mac_gemm.sv
+R37
+Fincludes/test_tasks.svh
+Fincludes/test_func.svh
+!i122 141
+L0 1 386
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R20
+R6
+vtb_single_port_memory
+R10
+!s110 1764771374
+!i10b 1
+!s100 >1gRLK5AJZG0@^jVgSFgB0
+I[ij8^2[?9oYCkQc^8PL_@1
+S1
+R1
+R12
+8tb/tb_single_port_memory.sv
+Ftb/tb_single_port_memory.sv
+R37
+!i122 32
+L0 21 145
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764771374.000000
+!s107 includes/common_tasks.svh|tb/tb_single_port_memory.sv|rtl/common/single_port_memory.sv|
+!s90 +cover|+acc|-sv|-f|flists/tb_single_port_memory.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_tile_mac
+R10
+!s110 1764756785
+!i10b 1
+!s100 DYUCTR_<T5KoQGabhJW2X3
+IlICE1_jehU7SSJfdf`Jc;2
+S1
+R1
+w1764756710
+Z41 8tb/tb_tile_mac_pe.sv
+Z42 Ftb/tb_tile_mac_pe.sv
+!i122 12
+L0 3 63
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764756785.000000
+Z43 !s107 tb/tb_tile_mac_pe.sv|rtl/gemm/general_mac_pe.sv|rtl/gemm/tile_mac_pe.sv|
+Z44 !s90 +cover|+acc|-sv|-f|flists/tb_tile_mac_pe.flist|+incdir+.|
+!i113 0
+R18
+R19
+R20
+R6
+vtb_tile_mac_pe
+R10
+R9
+!i10b 1
+!s100 R<@gSG`cUlUI>bIPcEA321
+I>Y;lcRm<@I6JJa45n]ZDA2
+S1
+R1
+w1764845576
+R41
+R42
+!i122 145
+L0 3 161
+R13
+R14
+r1
+!s85 0
+31
+!s108 1764935092.000000
+R43
+R44
+!i113 0
+R18
+R19
+R20
+R6
+vtile_mac_pe
+R10
+R2
+!i10b 1
+!s100 da]>enXVFK2UOBLkK^4_E2
+ITHW<YhJ^L_g=UXig;F2ZL3
+S1
+R1
+w1764863842
+8rtl/gemm/tile_mac_pe.sv
+Frtl/gemm/tile_mac_pe.sv
+!i122 154
+L0 1 56
+R13
+R14
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R18
+R19
+R20
+R6

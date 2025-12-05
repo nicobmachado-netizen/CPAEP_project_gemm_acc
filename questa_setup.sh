@@ -1,0 +1,1 @@
+source /users/micas/micas/design/scripts/questasim_2022.4.rc

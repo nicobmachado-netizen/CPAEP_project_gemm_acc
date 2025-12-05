@@ -1,0 +1,2 @@
+rtl/common/single_port_memory.sv
+tb/tb_single_port_memory.sv
