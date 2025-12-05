@@ -36,3 +36,21 @@ Some long log of the previous tests.
 # End time: 10:12:59 on Nov 27,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 3
 ```
+# Additional tests
+Similar to the tests provided in the original template, the tests require to run from GUI:
+
+first run:
+```bash
+source questa_setup.sh 
+```
+and then any of:
+
+```bash
+make TEST_MODULE=tb_gemm_accelerator questasim-run
+```
+```bash
+make TEST_MODULE=tb_matrix_reader questasim-run
+```
+```bash
+make TEST_MODULE=tb_tile_mac_pe questasim-run
+```
